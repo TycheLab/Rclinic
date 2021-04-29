@@ -1,6 +1,6 @@
 words <- scan(file = "R_problem.Rmd",
               what = "character")
-words <- gsub(pattern = "\\-|\\(|\\)|\\#|\\`|\\:|\\'", 
+words <- gsub(pattern = "\\-|\\(|\\)|\\#|\\`|\\:|\\'|\\,", 
               replacement = NA, 
               x = words)
 words <- gsub(pattern = " ", 
