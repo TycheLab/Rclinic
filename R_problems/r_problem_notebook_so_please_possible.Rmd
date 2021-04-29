@@ -1,0 +1,28 @@
+---
+title: "R problem Notebook"
+output: html_notebook
+---
+
+Name (optional):
+
+Email (optional):
+
+## Data
+Please describe the data that you are working with
+
+
+## Problem statement
+Please be as specific as possible about what you are trying to do,
+and what isn't working
+
+
+## Example
+Please include lots of comments about the code, so that we can understand why
+it isn't working
+```{r}
+# This is a comment inside the R chunk
+
+```
+
+
+
