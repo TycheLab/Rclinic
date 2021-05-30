@@ -65,3 +65,13 @@ I need mean values by hydrological year and month.`
 
   ```  
 
+
+
+# Contributing solutions 
+
+Anybody can contribute solutions to the submitted problems! Once all problems are submitted, a github issue will be opened for each problem: there the clinic coordinators and any other volunteer can discuss possible solutions and can assign each problem to a specific person who will then be responsible for finalising the solution which will be uploaded as the final solution. Typically the assignee would be a member of the clinic team, but any other volunteer with knowledge of how to solve any of the problems and willing to contribute can add to the issue discussion and eventually be responsible for the final solution. 
+
+
+# Code of conduct 
+
+All users involved in the clinic, either by sumbitting questions or contributing solutions, are required to follow the proejct's [code of conduct](https://github.com/strnda/clinic_test_repo/blob/main/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
