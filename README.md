@@ -1,3 +1,10 @@
+# Content 
+1. [Why do the R clinic](#why)
+2. [How the R clinic works ](#how)
+3. [Guide on how to post problems](#guide)
+4. [Contributing solutions](#solutions) 
+5. [Code of Conduct](#CoC)
+ 
 # R clinic *test repo*
 
 This repository will hold questions about problems using **R**, submitted by users, who
@@ -6,12 +13,19 @@ which will be stored in the same repository, providing a library of solutions
 to **R** problems. 
 
 
-# Why do the R clinic
+# Why do the R clinic  <a name="why"></a>
 
-There are lots of resources for learning about R, from webinars, to YouTube videos. These all give good introductions to R. However, people often have trouble when they are actually using R in their work. They need to do something, and can't figure out how to do it and we think that this is where we could make a real contribution. The idea would be to conduct an R clinic, taking people through the solutions of real world problems. 
+There are lots of resources for learning about R, from webinars to YouTube videos. These all give good introductions to R. However, people often have trouble when they are actually using R in their work. They need to do something, and can't figure out how to do it and we think that this is where we could make a real contribution. The idea would be to conduct an R clinic, taking people through the solutions of real world problems. 
 
 
-# Guide on how to post problems
+# How the R clinic works  <a name="how"></a>
+
+Anybody who wishes to submit a question on how to use R to solve a real problem in hydrology, climatology and environmental sciences can submit a question. This should happen via a pull request as explained in the guide below. The deadline for the question submission is **June 25th**. After that, there will be some sifting through the questions and the different problems will be assigned to the volunteers who wish to take charge of the solution. A live streaming session in which the solutions to the problems will be presented and discussed will take place on **July 5th**. 
+
+This is the first time the R clinic is organised, so some adjustments might be needed as we go along - bear with us! 
+
+
+# Guide on how to post problems  <a name="guide"></a>
 
 Please make a copy of the file `"R_problem.Rmd"`, with a new name, which
 explains your issue, such as `"get_yearly_monthly_mean_values.Rmd"`. This
@@ -50,20 +64,22 @@ or after the chunk, or inside the chunk prefaced with "#", e.g.:
 I need mean values by hydrological year and month.`  
 
  ```{r}   
- 
  `# This statement gives me means by month`  
  
 `flows$monthly <- aggregate(flows$daily_flow, by = flows$month, FUN = "mean")`
 
-  ```  
+  ```    
+  
   
 * **Uploading the problem** ...
-  
-# Contributing solutions 
+
+* **If you are stuck**: you can contact Strnad Filip (strnadf@fzp.czu.cz), but keep in mind that we expect problems to be submitted as issues and not as emails. 
+
+# Contributing solutions  <a name="solutions"></a> 
 
 Anybody can contribute solutions to the submitted problems! Once all problems are submitted, a github issue will be opened for each problem: there the clinic coordinators and any other volunteer can discuss possible solutions and can assign each problem to a specific person who will then be responsible for finalising the solution which will be uploaded as the final solution. Typically the assignee would be a member of the clinic team, but any other volunteer with knowledge of how to solve any of the problems and willing to contribute can add to the issue discussion and eventually be responsible for the final solution. 
 
 
-# Code of conduct 
+# Code of conduct  <a name="CoC"></a>
 
 All users involved in the clinic, either by sumbitting questions or contributing solutions, are required to follow the proejct's [code of conduct](https://github.com/strnda/clinic_test_repo/blob/main/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
