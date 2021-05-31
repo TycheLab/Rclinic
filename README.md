@@ -1,9 +1,14 @@
-# clinic_test_repo
+# R clinic *test repo*
 
 This repository will hold questions about problems using **R**, submitted by users, who
 are working in hydrological sciences. The questions will be turned into solutions,
 which will be stored in the same repository, providing a library of solutions
 to **R** problems. 
+
+
+# Why do the R clinic
+
+There are lots of resources for learning about R, from webinars, to YouTube videos. These all give good introductions to R. However, people often have trouble when they are actually using R in their work. They need to do something, and can't figure out how to do it and we think that this is where we could make a real contribution. The idea would be to conduct an R clinic, taking people through the solutions of real world problems. 
 
 
 # Guide on how to post problems
@@ -22,6 +27,7 @@ The document has the following sections to be filled in.
 * **Name and email**: These are optional, but will enable us to contact you if there are any
 questions. All names and emails will be deleted from the .Rmd files when
 the solutions are posted.
+
 * **Data** Your examples will probably need some data. Please describe the data set here.
 Note that there are many built-in data sets, which you can see using the
 `data()` command. If you do need to include a data set, please make it as 
@@ -31,13 +37,11 @@ You can also can also read data from a URL:
 `dataframe <- read.csv("http://some.site.net/data/daily_flows.csv")`   
 Please ensure that none of the data you submit contains any confidential information.
 
-
 * **Problem statement** Please be as specific as possible, so that we can best understand the issue.
 A good problem statement would be something like:  
 "When I try to do this, I get x. However, I'm really trying to get y".  
 or  
 "Given a data frame of daily dates and flow values, how do I get monthly and yearly mean values by the hydrological year?"  
-
 
 * **Example(s)** The example(s) of the problem are placed in an R "chunk", which is everything
 between the "\`\`\`{r}" and "\`\`\`". Please include lots of comments, either before 
@@ -53,6 +57,7 @@ I need mean values by hydrological year and month.`
 
   ```  
   
+* **Uploading the problem** ...
   
 # Contributing solutions 
 
