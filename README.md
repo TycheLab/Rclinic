@@ -57,7 +57,9 @@ I need mean values by hydrological year and month.`
 
   ```  
   
-* **Uploading the problem** ...
+* **Uploading the problem** Your problems can be submitted by using standard git workflow (forking the repo and submitting a pull request), or manually uploading the \*.Rmd file to the "R_problems" directory using the **Add file** button as show on the picture bellow  
+
+<img src = ".figs/placeholder_image.png" align = "center" width = "555"/>
   
 # Contributing solutions 
 
