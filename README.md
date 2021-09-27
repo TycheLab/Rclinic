@@ -20,7 +20,7 @@ There are lots of resources for learning about R, from webinars to YouTube video
 
 # How the R clinic works  <a name="how"></a>
 
-Anybody who wishes to submit a question on how to use R to solve a real problem in hydrology, climatology and environmental sciences can submit a question. This should happen via a pull request as explained in the guide below. The deadline for the question submission is **June 25th**. After that, there will be some sifting through the questions and the different problems will be assigned to the volunteers who wish to take charge of the solution. A live streaming session in which the solutions to the problems will be presented and discussed will take place on **July 5th**. 
+Anybody who wishes to submit a question on how to use R to solve a real problem in hydrology, climatology and environmental sciences can submit a question. This should happen via a pull request as explained in the guide below. The deadline for the question submission is **October 24th**. After that, there will be some sifting through the questions and the different problems will be assigned to the volunteers who wish to take charge of the solution. A live streaming session in which the solutions to the problems will be presented and discussed will take place on **Novebmer 4th**. 
 
 This is the first time the R clinic is organised, so some adjustments might be needed as we go along - bear with us! 
 
