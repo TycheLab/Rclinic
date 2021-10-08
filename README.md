@@ -22,7 +22,7 @@ There are lots of resources for learning about R, from webinars to YouTube video
 
 Anybody who wishes to submit a question on how to use R to solve a real problem in hydrology, climatology and environmental sciences can submit a question. This should happen via a pull request as explained in the guide below. The deadline for the question submission is **October 24th**. After that, there will be some sifting through the questions and the different problems will be assigned to the volunteers who wish to take charge of the solution. A live streaming session in which the solutions to the problems will be presented and discussed will take place on **November 4th**. 
 
-This is the first time the R clinic is organised, so some adjustments might be needed as we go along - bear with us! 
+This is the first time the R clinic is organised, so some adjustments might be needed as we go along - bear with us!
 
 
 # Guide on how to post problems  <a name="guide"></a>
@@ -70,9 +70,14 @@ I need mean values by hydrological year and month.`
 
   ```    
   
-* **Uploading the problem** Your problems can be submitted by using standard git workflow (forking the repo and submitting a pull request), or manually uploading the \*.Rmd file to the "R_problems" directory using the **Add file** button as show on the picture bellow  
+* **Uploading the problem** Your problems can be submitted by using standard git workflow (forking the repo and submitting a pull request), or manually uploading the \*.Rmd file to the "R_problems" directory using the **Add file** button and than simply click on **Commit changes** as shown on the pictures bellow
 
-<img src = ".figs/placeholder_image.png" align = "center" width = "555"/>
+
+<center><img src = ".figs/manual_problem_upload.png" width = "555"/></center>
+
+---
+
+<center><img src = ".figs/commit_problem.png" width = "555"/></center>
 
 
 * **If you are stuck**: you can contact Strnad Filip (strnadf@fzp.czu.cz), but keep in mind that we expect problems to be submitted as issues and not as emails. 
